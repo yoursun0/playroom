@@ -28,6 +28,7 @@ Default sandbox is `noSandbox()` from
 
 ```bash
 cd /workspace/IT/My-AI-Portfolio/Projects/playroom
+# (legacy checkout name: …/Projects/OnlineGame)
 
 # One-time: deps (bun workspaces)
 bun install
