@@ -40,7 +40,7 @@ Two tabs in the **same** browser profile are invalid for two-player cases. Guest
 | Languages | `en` and `zh-Hant` via the EN / 中文 toggle |
 | Viewports | Desktop 1280×800; mobile 390×844 |
 
-Do not point local UAT at the production website (`online-game-helic.vercel.app`). The local app uses the same `playroom` Supabase project as that site.
+Do not point local UAT at the production website (`playroom-helic.vercel.app`). The local app uses the same `playroom` Supabase project as that site.
 
 ### Test data
 

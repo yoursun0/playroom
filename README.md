@@ -2,7 +2,7 @@
 
 PLAYROOM is an anonymous multiplayer game portal for short, shareable games. The production vertical slice is a two-player Tic-tac-toe room with a public catalogue, short room codes, guest sessions, server-authoritative moves, reconnect recovery, abuse controls, and Vercel/Supabase deployment. Connect Four / 四子棋 uses the same room flow with `CON-` codes once its migration is applied.
 
-Production: [online-game-helic.vercel.app](https://online-game-helic.vercel.app/)
+Production: [playroom-helic.vercel.app](https://playroom-helic.vercel.app/) (legacy [online-game-helic.vercel.app](https://online-game-helic.vercel.app/) still live)
 
 AFK delivery canary: 2026-09 (ai-delivery-control).
 
@@ -17,7 +17,7 @@ AFK delivery canary: 2026-09 (ai-delivery-control).
 | API | Next.js Route Handlers | Authenticated room commands and snapshots |
 | Database/auth | Supabase Postgres + Supabase Auth | Durable room state, event history, anonymous guest sessions |
 | Transport | Supabase client and database polling/recovery | Guest auth and canonical room snapshots |
-| Hosting | Vercel Hobby, project `helic/online-game` | Preview and Production deployments |
+| Hosting | Vercel Hobby, project `helic/playroom` | Preview and Production deployments |
 | Testing | Bun test + TypeScript checks + production two-browser smoke test | Regression and release verification |
 
 The browser receives only the Supabase URL and anon key. The service-role key is used by server-side route handlers and must never be exposed to client code.
@@ -44,8 +44,8 @@ Prerequisites: Bun 1.x and access to the hosted `playroom` Supabase project (`xr
 
 ```powershell
 # clone and enter the repository
-git clone https://github.com/yoursun0/OnlineGame.git
-cd OnlineGame
+git clone https://github.com/yoursun0/playroom.git
+cd playroom
 
 # install exactly from the lockfile
 bun install --frozen-lockfile
