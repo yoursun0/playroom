@@ -23,7 +23,7 @@ never be copied into a `NEXT_PUBLIC_*` variable or committed to this repository.
 
 ## Import and deploy
 
-1. Import `yoursun0/OnlineGame` into Vercel with the repository root as the
+1. Import `yoursun0/playroom` into Vercel with the repository root as the
    project root and the `main` branch as the production branch.
 2. Confirm the detected framework is **Next.js** and the install command is
    `bun install --frozen-lockfile`.

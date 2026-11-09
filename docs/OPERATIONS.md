@@ -8,7 +8,7 @@ This document is the day-two guide for the single hosted `playroom` database. It
 | --- | --- | --- | --- |
 | Local | `playroom` (`xrkwxaxsmnraygwsmdiq`) | none | Feature work and integration tests |
 | Preview | `playroom` (`xrkwxaxsmnraygwsmdiq`) | Preview | Branch previews |
-| Production | `playroom` (`xrkwxaxsmnraygwsmdiq`), Seoul (`ap-northeast-2`), free plan | `helic/online-game` Production | Public site |
+| Production | `playroom` (`xrkwxaxsmnraygwsmdiq`), Seoul (`ap-northeast-2`), free plan | `helic/playroom` Production | Public site |
 
 Do not commit credentials. `.env.local` and Vercel Preview may hold the `playroom` service-role key; it must not enter Git, a pull request, or chat. `playroom-dev` is retired.
 

@@ -1,4 +1,4 @@
-# Sandcastle + Grok on OnlineGame
+# Sandcastle + Grok on playroom
 
 Sandcastle orchestrates AFK coding agents against GitHub issues. This repo
 wires a **custom Grok `AgentProvider`** because Cloud Agents (Cursor) are
@@ -27,7 +27,7 @@ Default sandbox is `noSandbox()` from
 `@ai-hero/sandcastle/sandboxes/no-sandbox`.
 
 ```bash
-cd /workspace/IT/My-AI-Portfolio/Projects/OnlineGame
+cd /workspace/IT/My-AI-Portfolio/Projects/playroom
 
 # One-time: deps (bun workspaces)
 bun install
@@ -56,7 +56,7 @@ bun run sandcastle
 
 ```bash
 # Build image (installs Grok CLI via https://grok.com/install.sh)
-bunx sandcastle docker build-image --image-name sandcastle:onlinegame
+bunx sandcastle docker build-image --image-name sandcastle:playroom
 
 # Run with Docker sandbox
 SANDCASTLE_SANDBOX=docker XAI_API_KEY=... GH_TOKEN=... bun run sandcastle

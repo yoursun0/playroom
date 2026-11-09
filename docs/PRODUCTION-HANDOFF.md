@@ -9,9 +9,9 @@ This is the record of the current public launch configuration. Secret values are
 - Local, Preview, and Production share this project. `playroom-dev` is retired.
 - Supabase region: `ap-northeast-2` (Seoul)
 - Supabase plan: Free
-- Vercel project: `helic/online-game`
+- Vercel project: `helic/playroom`
 - Vercel function region: `icn1` (Seoul). Hobby allows one region; this matches the database. Do not pin functions to `hkg1`, because each room request makes several sequential database calls.
-- Production URL: [https://online-game-helic.vercel.app](https://online-game-helic.vercel.app)
+- Production URL: [https://playroom-helic.vercel.app](https://playroom-helic.vercel.app)
 - Custom domain: none; the Vercel alias is the canonical public URL for now
 - Vercel SSO Deployment Protection: disabled so the public URL is reachable without a Vercel account
 

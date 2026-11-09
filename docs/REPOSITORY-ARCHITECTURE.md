@@ -7,7 +7,7 @@ PLAYROOM uses one Git repository with modular game projects. A game is independe
 ## Directory map
 
 ```text
-OnlineGame/
+playroom/
 ├── app/                         # production web app / Vercel entry point
 ├── games/                       # one folder per game
 │   ├── tic-tac-toe/             # TIK-XXX
